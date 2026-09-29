@@ -1,8 +1,0 @@
-overpass-api.de unreachable from the fetch environment (2026-09-29T08:49:33Z).
-
-Command: curl -sS -m 20 -o /dev/null -w "%{http_code}\n" https://overpass-api.de/api/status
-Output:
-curl: (56) CONNECT tunnel failed, response 403
-000
-
-Agent proxy: overpass-api.de:443 — connect_rejected (the egress proxy denied the CONNECT (organization policy) or could not reach the destination)
